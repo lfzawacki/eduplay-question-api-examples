@@ -2,7 +2,7 @@ const querystring = require('querystring');
 const sha1 = require('sha1');
 const axios = require('axios')
 
-const SERVER_URL = "https://paulo.dev.mconf.com/transfer/joinGuest";
+const SERVER_URL = "https://lucas.elos.dev/transfer/joinGuest";
 const API_SECRET = process.argv[2];
 
 const generateChecksum = (params) => {

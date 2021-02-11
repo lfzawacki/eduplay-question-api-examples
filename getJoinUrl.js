@@ -12,9 +12,8 @@ const generateChecksum = (params) => {
 
 const params = {
   "internalMeetingID": process.argv[3],
-  "meetingID": process.argv[4],
-  "userName": process.argv[5] || "User EDUPLAY",
-  "userID" : process.argv[6] || "USERID_EDUPLAY",
+  "userName": process.argv[4] || "User EDUPLAY",
+  "userID" : process.argv[5] || "USERID_EDUPLAY",
 }
 
 params.checksum = generateChecksum(params);
